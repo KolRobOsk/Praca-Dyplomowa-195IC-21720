@@ -1,3 +1,4 @@
 Python https://www.python.org/ Wersja 3.8.0 (KONIECZNIE TA WERSJA, nie może być nowsza !!!)
+Moduł uczenia maszynowego RASA SI https://github.com/RasaHQ/rasa
 dodatkowe biblioteki do pythona umieszczone w requirements.txt
 https://atom.io/ (IDE)
