@@ -5,29 +5,33 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
   - bot_challenge
+  - how_do_i_feel
+  - drill_into_feel
+  - drill_into_feel_tired
+  - ask_bout_home_remedies
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Um, hi?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_how_do_i_feel:
+  - text: "Tired"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_drill_into_feel:
+  - text: "I don't want to do anything. I'm low on energy. And a bit sad."
 
   utter_goodbye:
   - text: "Bye"
 
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  - text: "I am a bot, powered by Rasa, simulating F32.1 health condition."
+
+  utter_drill_into_feel_tired:
+  - text: "I'm just too exausted to do anything, for most of the day."
+
+  utter_ask_bout_home_remedies:
+  - text: I've tried everything I could, and yet nothing!
 
 session_config:
   session_expiration_time: 60

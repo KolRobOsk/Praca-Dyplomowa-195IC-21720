@@ -1,0 +1,29 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class=active, fontsize=12, label=utter_greet];
+"-5" [class=ellipsis, label="..."];
+5 [class=active, fontsize=12, label=utter_how_do_i_feel];
+6 [class=active, fontsize=12, label=action_unlikely_intent];
+7 [class=active, fontsize=12, label=utter_drill_into_feel_tired];
+8 [class=active, fontsize=12, label=utter_drill_into_feel];
+9 [class="dashed active", fontsize=12, label=action_default_fallback];
+10 [class="intent active", fillcolor=lightblue, label="/greet", shape=rect, style=filled];
+11 [class="intent active", fillcolor=lightblue, label="/how_do_i_feel", shape=rect, style=filled];
+12 [class="intent active", fillcolor=lightblue, label="/drill_into_feel_tired", shape=rect, style=filled];
+13 [class="intent active", fillcolor=lightblue, label="/drill_into_feel", shape=rect, style=filled];
+14 [class="intent active", fillcolor=lightblue, label="/Ask bout home remedies", shape=rect, style=filled];
+0 -> "-1"  [class="", key=NONE, label=""];
+0 -> 10  [class=active, key=0];
+1 -> "-5"  [class="", key=NONE, label=""];
+1 -> 11  [class=active, key=0];
+5 -> 12  [class=active, key=0];
+6 -> 7  [class=active, key=NONE, label=""];
+7 -> 13  [class=active, key=0];
+8 -> 14  [class=active, key=0];
+10 -> 1  [class=active, key=0];
+11 -> 5  [class=active, key=0];
+12 -> 6  [class=active, key=0];
+13 -> 8  [class=active, key=0];
+14 -> 9  [class=active, key=0];
+}
