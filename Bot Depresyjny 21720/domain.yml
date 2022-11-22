@@ -10,6 +10,7 @@ intents:
   - drill_into_feel
   - drill_into_feel_tired
   - ask_bout_home_remedies
+  - offend
 
 responses:
   utter_greet:
@@ -32,6 +33,12 @@ responses:
 
   utter_ask_bout_home_remedies:
   - text: I've tried everything I could, and yet nothing!
+
+  utter_offend:
+  - text: Why are you so mean?
+
+  utter_offended_goodbye:
+  - text: Sure, whatever.
 
 session_config:
   session_expiration_time: 60

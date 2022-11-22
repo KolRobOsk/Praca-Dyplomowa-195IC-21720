@@ -81,4 +81,11 @@ nlu:
     - Did you try drinking cofee?
     - Did you take aspirin?
     - Did you eat well?
-    
+    - Have you tried any home remedies?
+
+- intent: offend
+  examples: |
+    - I don't care.
+    - I don't give a crap.
+    - You're lazy.
+    - You're funny.
