@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Rasa cache
-"Bot Depresyjny 21720/.rasa/"
+Bot Depresyjny 21720/.rasa/
 
 # training models
-"Bot Depresyjny 21720/models/"
+Bot Depresyjny 21720/models/
