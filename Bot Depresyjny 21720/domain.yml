@@ -11,13 +11,15 @@ intents:
   - drill_into_feel_tired
   - ask_bout_home_remedies
   - offend
+  - ask_bout_less_attention
+  - ask_bout_being_sad
 
 responses:
   utter_greet:
   - text: "Um, hi?"
 
   utter_how_do_i_feel:
-  - text: "Tired"
+  - text: "Tired and sad"
 
   utter_drill_into_feel:
   - text: "I don't want to do anything. I'm low on energy. And a bit sad."
@@ -32,13 +34,19 @@ responses:
   - text: "I'm just too exausted to do anything, for most of the day."
 
   utter_ask_bout_home_remedies:
-  - text: I've tried everything I could, and yet nothing!
+  - text: "I've tried everything I could, and yet nothing!"
 
   utter_offend:
-  - text: Why are you so mean?
+  - text: "Why are you so mean?"
 
   utter_offended_goodbye:
-  - text: Sure, whatever.
+  - text: "Sure, whatever."
+
+  utter_affirmative:
+  - text: "Yes..."
+
+  utter_drill_into_being_sad:
+  - text: "I just don't care about anything"
 
 session_config:
   session_expiration_time: 60

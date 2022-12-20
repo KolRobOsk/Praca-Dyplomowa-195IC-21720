@@ -54,3 +54,27 @@ stories:
   - action: utter_offend
   - intent: goodbye
   - action: utter_offended_goodbye
+
+- story: offend the Ai
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: ask_bout_less_attention
+  - action: utter_affirmative
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: offend the Ai
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: ask_bout_being_sad
+  - action: utter_affirmative
+  - intent: drill_into_being_sad
+  - action: utter_drill_into_being_sad
+  - intent: goodbye
+  - action: utter_goodbye

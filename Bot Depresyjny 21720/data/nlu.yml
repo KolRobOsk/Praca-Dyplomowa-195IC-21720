@@ -89,3 +89,17 @@ nlu:
     - I don't give a crap.
     - You're lazy.
     - You're funny.
+
+- intent: ask_bout_less_attention
+  examples: |
+    - Are you always tired?
+    - Can't you focus on anything?
+    - So you don't want to do anything?
+    - You don't do anything productive all day?
+
+
+- intent: ask_bout_being_sad
+  examples: |
+    - Are you always sad?
+    - Can you tell me why are you sad?
+    - Can't you be happy?
