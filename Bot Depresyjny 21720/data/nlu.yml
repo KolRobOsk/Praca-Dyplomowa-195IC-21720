@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
+    - Hello
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +28,7 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
+    - Goodbye
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +37,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,68 +46,59 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: bot_challenge
   examples: |
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
-
 - intent: how_do_i_feel
   examples: |
     - How are you feeling?
     - How do you feel?
     - Feeling good?
     - Feeling bad?
-
+    - how do you feel today?
 - intent: drill_into_feel
   examples: |
     - What do you exactly feel?
     - Why do you feel bad?
     - Could you describe it further?
     - What does it mean tired?
-
 - intent: drill_into_feel_tired
   examples: |
     - Tired?
     - Tired, why?
     - Why are you tired?
-
 - intent: ask_bout_home_remedies
   examples: |
     - Did you try drinking cofee?
     - Did you take aspirin?
     - Did you eat well?
     - Have you tried any home remedies?
-
 - intent: offend
   examples: |
     - I don't care.
     - I don't give a crap.
     - You're lazy.
     - You're funny.
-
 - intent: ask_bout_less_attention
   examples: |
     - Are you always tired?
     - Can't you focus on anything?
     - So you don't want to do anything?
     - You don't do anything productive all day?
-
-
 - intent: ask_bout_being_sad
   examples: |
     - Are you always sad?
     - Can you tell me why are you sad?
     - Can't you be happy?
-
 - intent: ask_bout_sleep
   examples: |
     - Do you sleep well?
     - how do you sleep?
     - Can you sleep through the night?
-
+    - do you sleep well?
 - intent: ask_bout_room
   examples: |
     - Do you clean your place?
@@ -117,3 +106,5 @@ nlu:
     - How often do you clean your room?
     - Do you clean your room?
     - Do you clean your room often?
+    - Do you clean you room often?
+    - do you clean your place?

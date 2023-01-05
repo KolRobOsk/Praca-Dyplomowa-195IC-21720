@@ -1,62 +1,53 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - bot_challenge
-  - how_do_i_feel
-  - drill_into_feel
-  - drill_into_feel_tired
-  - ask_bout_home_remedies
-  - offend
-  - ask_bout_less_attention
-  - ask_bout_being_sad
-  - drill_into_being_sad
-  - ask_bout_room
-  - ask_bout_sleep
-
+- affirm
+- ask_bout_being_sad
+- ask_bout_home_remedies
+- ask_bout_less_attention
+- ask_bout_room
+- ask_bout_sleep
+- bot_challenge
+- deny
+- drill_into_being_sad
+- drill_into_feel
+- drill_into_feel_tired
+- goodbye
+- greet
+- how_do_i_feel
+- offend
 responses:
   utter_greet:
-  - text: "Um, hi?"
-
+  - text: Um, hi?
   utter_how_do_i_feel:
-  - text: "Tired and sad"
-
+  - text: Tired and sad
   utter_drill_into_feel:
-  - text: "I don't want to do anything. I'm low on energy. And a bit sad."
-
+  - text: I don't want to do anything. I'm low on energy. And a bit sad.
   utter_goodbye:
-  - text: "Bye"
-
+  - text: Bye
   utter_iamabot:
-  - text: "I am a bot, powered by Rasa, simulating F32.1 health condition."
-
+  - text: I am a bot, powered by Rasa, simulating F32.1 health condition.
   utter_drill_into_feel_tired:
-  - text: "I'm just too exausted to do anything, for most of the day."
-
+  - text: I'm just too exausted to do anything, for most of the day.
   utter_ask_bout_home_remedies:
-  - text: "I've tried everything I could, and yet nothing!"
-
+  - text: I've tried everything I could, and yet nothing!
   utter_offend:
-  - text: "Why are you so mean?"
-
+  - text: Why are you so mean?
   utter_offended_goodbye:
-  - text: "Sure, whatever."
-
+  - text: Sure, whatever.
   utter_affirmative:
-  - text: "Yes..."
-
+  - text: Yes...
   utter_drill_into_being_sad:
-  - text: "I just don't care about anything"
-
+  - text: I just don't care about anything
   utter_ask_bout_sleep:
-  - text: "I sleep long, too long, about 10h a day."
-
+  - text: I sleep long, too long, about 10h a day.
   utter_ask_bout_room:
-  - text: "Why should I clean my room when it'll become mess anyway. That doesn't make any sense!"
-
+  - text: Why should I clean my room when it'll become mess anyway. That doesn't make any sense!
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- utter_ask_bout_room
+- utter_ask_bout_sleep
+- utter_goodbye
+- utter_greet
+- utter_how_do_i_feel

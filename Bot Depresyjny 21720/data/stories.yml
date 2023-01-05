@@ -9,6 +9,11 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
+- story: ask bout feeling short
+  steps:
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+
 - story: ask bout feeling
   steps:
   - intent: greet
@@ -17,6 +22,16 @@ stories:
   - action: utter_how_do_i_feel
   - intent: goodbye
   - action: utter_goodbye
+
+- story: drill into feel short
+  steps:
+  - intent: drill_into_feel
+  - action: utter_drill_into_feel
+
+- story: dril into feel tired short
+  steps:
+  - intent: drill_into_feel_tired
+  - action: utter_drill_into_feel_tired
 
 - story: drill bout feeling being tired
   steps:
@@ -31,6 +46,11 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
+- story: ask bout home remedies short
+  steps:
+  - intent: ask_bout_home_remedies
+  - action: utter_ask_bout_home_remedies
+
 - story: ask bout home remedies
   steps:
   - intent: greet
@@ -43,6 +63,18 @@ stories:
   - action: utter_ask_bout_home_remedies
   - intent: goodbye
   - action: utter_goodbye
+
+- story: offend the Ai short
+  steps:
+  - intent: offend
+  - action: utter_offend
+
+- story: offend the Ai wit gbye short
+  steps:
+  - intent: offend
+  - action: utter_offend
+  - intent: goodbye
+  - action: utter_offended_goodbye
 
 - story: offend the Ai
   steps:
@@ -71,8 +103,8 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: how_do_i_feel
-  - action: utter_how_do_i_feel
   - intent: ask_bout_being_sad
+  - action: utter_how_do_i_feel
   - action: utter_affirmative
   - intent: drill_into_being_sad
   - action: utter_drill_into_being_sad
@@ -96,6 +128,37 @@ stories:
   - action: utter_greet
   - intent: how_do_i_feel
   - action: utter_how_do_i_feel
+  - intent: ask_bout_room
+  - action: utter_ask_bout_room
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_bout_room
+  - action: utter_ask_bout_room
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ask_bout_sleep
+  - action: utter_ask_bout_sleep
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: ask_bout_sleep
+  - action: utter_ask_bout_sleep
   - intent: ask_bout_room
   - action: utter_ask_bout_room
   - intent: goodbye
