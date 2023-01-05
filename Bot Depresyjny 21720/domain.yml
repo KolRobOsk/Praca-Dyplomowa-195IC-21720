@@ -13,6 +13,9 @@ intents:
   - offend
   - ask_bout_less_attention
   - ask_bout_being_sad
+  - drill_into_being_sad
+  - ask_bout_room
+  - ask_bout_sleep
 
 responses:
   utter_greet:
@@ -47,6 +50,12 @@ responses:
 
   utter_drill_into_being_sad:
   - text: "I just don't care about anything"
+
+  utter_ask_bout_sleep:
+  - text: "I sleep long, too long, about 10h a day."
+
+  utter_ask_bout_room:
+  - text: "Why should I clean my room when it'll become mess anyway. That doesn't make any sense!"
 
 session_config:
   session_expiration_time: 60

@@ -55,7 +55,7 @@ stories:
   - intent: goodbye
   - action: utter_offended_goodbye
 
-- story: offend the Ai
+- story: askin bout less attention
   steps:
   - intent: greet
   - action: utter_greet
@@ -66,7 +66,7 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
-- story: offend the Ai
+- story: drill into less attention
   steps:
   - intent: greet
   - action: utter_greet
@@ -76,5 +76,27 @@ stories:
   - action: utter_affirmative
   - intent: drill_into_being_sad
   - action: utter_drill_into_being_sad
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask bout sleep
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: ask_bout_sleep
+  - action: utter_ask_bout_sleep
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: ask bout room
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: ask_bout_room
+  - action: utter_ask_bout_room
   - intent: goodbye
   - action: utter_goodbye

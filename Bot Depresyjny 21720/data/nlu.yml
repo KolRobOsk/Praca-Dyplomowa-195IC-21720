@@ -103,3 +103,17 @@ nlu:
     - Are you always sad?
     - Can you tell me why are you sad?
     - Can't you be happy?
+
+- intent: ask_bout_sleep
+  examples: |
+    - Do you sleep well?
+    - how do you sleep?
+    - Can you sleep through the night?
+
+- intent: ask_bout_room
+  examples: |
+    - Do you clean your place?
+    - Do you clean your place often?
+    - How often do you clean your room?
+    - Do you clean your room?
+    - Do you clean your room often?
