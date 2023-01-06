@@ -15,6 +15,14 @@ intents:
 - greet
 - how_do_i_feel
 - offend
+- ask_bout_name
+- encourage_talking
+- ask_bout_drinking_and_drugs
+- ask_bout_waking_up
+- ask_bout_fear
+- drill_into_fear
+- drill_into_waking_up
+- ask_bout_hygiene
 responses:
   utter_greet:
   - text: Um, hi?
@@ -42,6 +50,22 @@ responses:
   - text: I sleep long, too long, about 10h a day.
   utter_ask_bout_room:
   - text: Why should I clean my room when it'll become mess anyway. That doesn't make any sense!
+  utter_ask_bout_name:
+  - text: I'm chatbot powered by rasa AI, but you can call me Bill.
+  utter_encourage_talking:
+  - text: Yeah, sure.
+  utter_ask_bout_fear:
+  - text: I'm a bit scared.
+  utter_drill_into_fear:
+  - text: People scare me. Especially when smiling.
+  utter_ask_bout_drinking_and_drugs:
+  - text: I drink two bottles of whiskey a day. But I can stop anytime.
+  utter_ask_bout_waking_up:
+  - text: I can't get up before 12 AM, even going to bed at 9 PM.
+  utter_drill_into_waking_up:
+  - text: I simply cannot get up. I'm paralised and can only sleep.
+  utter_ask_bout_hygiene:
+  - text: Why to be clean when you will eventually be dirty?
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

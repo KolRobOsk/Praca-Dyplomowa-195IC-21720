@@ -108,3 +108,46 @@ nlu:
     - Do you clean your room often?
     - Do you clean you room often?
     - do you clean your place?
+- intent: encourage_talking
+  examples: |
+    - Can we talk?
+    - Let's talk
+    - I wanna talk with you
+- intent: ask_bout_name
+  examples: |
+    - What's your name?
+    - Your name?
+    - How are you called?
+- intent: ask_bout_fear
+  examples: |
+    - Are you afraid of future?
+    - Are you afraid of people?
+    - Do you feel fear?
+- intent: drill_into_fear
+  examples: |
+    - Why are you afraid of people?
+    - Why do you fear future?
+    - Why are you afraid?
+- intent: ask_bout_waking_up
+  examples: |
+    - Do you get up early?
+    - How are you waking up?
+    - is it easy to get up?
+- intent: drill_into_waking_up
+  examples: |
+    - Why can't you get up?
+    - Really can't you get up early?
+    - Can't you get up earlier?
+- intent: ask_bout_drinking_and_drugs
+  examples: |
+    - Do you do drugs?
+    - Are you a junky?
+    - Do you drink often?
+    - Do you drink too much?
+    - How about alcohol?
+- intent: ask_bout_hygiene
+  examples: |
+    - Do you wash your hands?
+    - Do you shower daily?
+    - Do you shower often?
+    - Do you bath often?
