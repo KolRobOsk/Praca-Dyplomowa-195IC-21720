@@ -1,4 +1,6 @@
-version: '3.1'
+# {Robert Kolke 195IC}
+#  Copyright 2022 Rasa Technologies GmbH
+# http://www.apache.org/licenses/LICENSE-2.0version: '3.1'
 intents:
 - affirm
 - ask_bout_being_sad
