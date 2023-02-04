@@ -2,4 +2,5 @@
 Projekt na pracę inżynierską
 WYMAGANIA:
 Python 3.8 (konkretnie ta wersja!) oraz Visual C++ najnowsza wersja 
+https://www.python.org/downloads/release/python-380/
 Temat Pracy: Modyfikacja bota dialogowego do symulacji wybranych chorób psychicznych
