@@ -27,11 +27,6 @@ stories:
   - intent: drill_into_feel_tired
   - action: utter_drill_into_feel_tired
 
-- story: ask bout home remedies short
-  steps:
-  - intent: ask_bout_home_remedies
-  - action: utter_ask_bout_home_remedies
-
 - story: ask bout home remedies
   steps:
   - intent: ask_bout_home_remedies
@@ -75,37 +70,21 @@ stories:
 
 - story: ask bout sleep
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: how_do_i_feel
-  - action: utter_how_do_i_feel
   - intent: ask_bout_sleep
   - action: utter_ask_bout_sleep
-  - intent: goodbye
-  - action: utter_goodbye
 
 - story: ask bout room
   steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: how_do_i_feel
-  - action: utter_how_do_i_feel
   - intent: ask_bout_room
   - action: utter_ask_bout_room
-  - intent: goodbye
-  - action: utter_goodbye
 
 - story: ask bout waking up
   steps:
   - intent: ask_bout_waking_up
   - action: utter_ask_bout_waking_up
-  - intent: drill_into_waking_up
-  - action: utter_drill_into_waking_up
 
-- story: ask bout waking up short
+- story: drill into waking up
   steps:
-  - intent: ask_bout_waking_up
-  - action: utter_ask_bout_waking_up
   - intent: drill_into_waking_up
   - action: utter_drill_into_waking_up
 
