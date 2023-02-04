@@ -1,31 +1,32 @@
-# {Robert Kolke 195IC}
-#  Copyright 2022 Rasa Technologies GmbH
-# http://www.apache.org/licenses/LICENSE-2.0version: '3.1'
+version: '3.1'
 intents:
 - affirm
+- ask_bout_aggravation
 - ask_bout_being_sad
+- ask_bout_drinking_and_drugs
+- ask_bout_fear
 - ask_bout_home_remedies
+- ask_bout_hygiene
 - ask_bout_less_attention
+- ask_bout_name
 - ask_bout_room
 - ask_bout_sleep
+- ask_bout_waking_up
 - bot_challenge
 - deny
 - drill_into_being_sad
+- drill_into_fear
 - drill_into_feel
 - drill_into_feel_tired
+- drill_into_waking_up
+- encourage_talking
 - goodbye
 - greet
 - how_do_i_feel
 - offend
-- ask_bout_name
-- encourage_talking
-- ask_bout_drinking_and_drugs
-- ask_bout_waking_up
-- ask_bout_fear
-- drill_into_fear
-- drill_into_waking_up
-- ask_bout_hygiene
 responses:
+  utter_ask_bout_aggravation:
+  - text: Yes, it gets worse.
   utter_greet:
   - text: Um, hi?
   utter_how_do_i_feel:
@@ -72,8 +73,10 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 actions:
+- utter_ask_bout_aggravation
 - utter_ask_bout_room
 - utter_ask_bout_sleep
+- utter_drill_into_feel
 - utter_goodbye
 - utter_greet
 - utter_how_do_i_feel

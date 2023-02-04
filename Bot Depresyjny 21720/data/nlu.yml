@@ -1,6 +1,3 @@
-# {Robert Kolke 195IC}
-#  Copyright 2022 Rasa Technologies GmbH
-# http://www.apache.org/licenses/LICENSE-2.0
 version: "3.1"
 nlu:
 - intent: greet
@@ -62,12 +59,14 @@ nlu:
     - Feeling good?
     - Feeling bad?
     - how do you feel today?
+    - How do you feel
 - intent: drill_into_feel
   examples: |
     - What do you exactly feel?
     - Why do you feel bad?
     - Could you describe it further?
     - What does it mean tired?
+    - Do you feel worse recently?
 - intent: drill_into_feel_tired
   examples: |
     - Tired?
@@ -154,3 +153,6 @@ nlu:
     - Do you shower daily?
     - Do you shower often?
     - Do you bath often?
+- intent: ask_bout_aggravation
+  examples: |
+    - Does it get worse with time?

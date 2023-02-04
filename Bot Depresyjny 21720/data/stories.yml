@@ -171,3 +171,19 @@ stories:
   steps:
   - intent: ask_bout_name
   - action: utter_ask_bout_name
+
+- story: ask bout aggravation
+  steps:
+  - intent: ask_bout_aggravation
+  - action: utter_ask_bout_aggravation
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: how_do_i_feel
+  - action: utter_how_do_i_feel
+  - intent: drill_into_feel
+  - action: utter_drill_into_feel
+  - intent: ask_bout_aggravation
+  - action: utter_ask_bout_aggravation
