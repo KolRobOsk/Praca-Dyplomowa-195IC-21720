@@ -1,13 +1,6 @@
+# {Robert Kolke 195IC}
+#  Copyright 2022 Rasa Technologies GmbH
+# http://www.apache.org/licenses/LICENSE-2.0
 version: "3.1"
 
 rules:
-
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
