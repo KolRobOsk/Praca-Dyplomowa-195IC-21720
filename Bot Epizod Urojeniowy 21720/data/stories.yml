@@ -140,8 +140,6 @@ stories:
   steps:
   - intent: ask_bout_Fred
   - action: utter_ask_bout_Fred
-  - intent: Fred_denial_existence
-  - action: utter_Fred_denial_existence
 
 - story: ask to calm down short
   steps:
