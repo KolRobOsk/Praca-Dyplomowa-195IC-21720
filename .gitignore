@@ -130,9 +130,11 @@ dmypy.json
 
 # Rasa cache
 Bot Depresyjny 21720/.rasa/
+Bot Epizod Urojeniowy 21720/.rasa/
 
 # training models
 Bot Depresyjny 21720/models/
+Bot Epizod Urojeniowy 21720/models/
 
 #programming environment
 myenv/
