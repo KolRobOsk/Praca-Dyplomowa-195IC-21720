@@ -1,2 +1,0 @@
-cmd /c "if exist myenv (echo exists) else (py -3.8 -m venv myenv)"
-cmd /c ""myenv/Scripts/activate" && python -m pip install --upgrade pip  &&  pip install rasa && cd "Bot Depresyjny 21720" && rasa train && cd "../Bot Epizod Urojeniowy 21720" && rasa train"
