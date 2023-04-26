@@ -1,0 +1,30 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - question_specialist_visit_before
+  - question_feeling observed
+
+responses:
+  utter_greet:
+  - text: "Hi..."
+
+  utter_question_specialist_visit_before:
+  - text: "Nah, I've never been to psychiatrist."
+
+  utter_goodbye:
+  - text: "Yeah, bye..."
+
+  utter_iamabot:
+  - text: "I am bot, created by RasaHQ. My purpose is to simulate F22.0 health condition."
+
+  utter_question_feeling observed:
+  - text: "Maybe... Maybe most people are watching me... I know it sounds dumb."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
