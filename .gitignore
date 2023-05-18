@@ -131,6 +131,7 @@ dmypy.json
 # Rasa cache
 Bot Depresyjny 21720/.rasa/
 Bot Epizod Urojeniowy 21720/.rasa/
+F22.0 Zaburzenia urojeniowe 21720/.rasa/
 
 # training models
 *.tar.gz
