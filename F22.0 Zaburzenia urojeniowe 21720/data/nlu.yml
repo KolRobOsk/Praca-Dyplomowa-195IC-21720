@@ -114,3 +114,16 @@ nlu:
     - Why are they laughing?
     - They are laughing at you?
     - Why do they laugh?
+- intent: question_do_you_use_alcohol
+  examples: |
+    - Do you get drunk?
+    - Do you drink often?
+    - Do you drink?
+    - Do you overdose alcohol?
+    - Do you drink alcohol?
+- intent: question_do_you_clean_house
+  examples: |
+    - Do you clean your house often?
+    - Is your house dirty?
+    - Do you clean your room often?
+    - Is your room dirty?

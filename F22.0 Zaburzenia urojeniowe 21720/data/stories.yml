@@ -67,3 +67,19 @@ stories:
   steps:
   - intent: question_why_laughing_while_trying_to_introduce
   - action: utter_why_laughing_while_trying_to_introduce
+
+- story: Say dont understand when not understanding
+  steps:
+  - intent: unknown_intent
+  - action: utter_dont_understand
+
+- story: asking about drinking
+  steps:
+  - intent: question_do_you_use_alcohol
+  - action: utter_do_you_use_alcohol
+
+- story: asking bout cleaning house
+  steps:
+  - intent: question_do_you_clean_house
+  - action: utter_do_you_clean_house
+
