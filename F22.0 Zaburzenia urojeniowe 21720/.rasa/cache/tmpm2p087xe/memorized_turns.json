@@ -1,0 +1,20 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydzssJgDAQBNBWUoAVpBWRJcooCxp1d+MlpHfj5y54m4HHMG0ujcub4KAwGK/Ru/wEimGBd2+ZWQ2x2qSQajjWat5NAlj52EhmEHrov4WPF3uC3kA3DBwuRgcrG/UYV0Ep3QmSblm8": "utter_question_specialist_visit_before",
+    "eJydjlEKwyAQRK/iAXICr1LCYmUaFlpjd1d/JHePbfJvyN8MPN7Mo22Ta1lQKUTjNXnXjkApfODdWd6shtTZopDOcOrVvFsEsG3gKGYQOtB7hsGLb4H+Ac2IHH4YVVY2euK1Cq4dHFpu7M47v4WJcA==": "action_listen",
+    "eJytj0EKwzAMBL/iB/QF/koIwg2bIEiVVJJzMf573SZ3l9KbFobZ1VDqLZRdcVCanDeJoZwHSXoghiusbA5pbDZoY1ha9BgWBbx2HNkdSif6m6Gz4plhH8B2TJzeGB1s7HTHvCm+G9i1/L2389YMrCxLreML/SukBw==": "utter_feeling",
+    "eJytj0EKwzAMBL/iB/QF/kopwg2bIEiVVJJzMfl73aY9FoeQmxaG2dW1rJdQZsVCqXOeJIayHSTpgRi+YWRzSGWzQSvDUqPHMCjga8OR3aG0occMjRXPDPsANqPj9MZoYWOnO/pJsW9g03J6b+OtHhhZhn3rf/B/y+0Fgbu+nw==": "utter_question_feeling_observed",
+    "eJytj0EOwjAMBL+SB/CCfAUhKy3bylLrlMTJJerfCbRwJBVw80rj8fpc1pMpS0Am1yt7saZsA4mbYc0eJo4KqWyKCJVhqVGtGQOga8ORVBFoQ78zNFrcEuITiAt6dg+MMkdW6jD4gGMFm5a/3228NQATy3is/Qv+zfL+aN8i31VbxvWD93IH8/vgxw==": "action_listen",
+    "eJytkVEOwiAMhq/CATwBVzGm2ea/2WTChIIPZHcXN/QVMn1rk69f/6bntJ5UWhwidYOwNVqlvSDT3aFVaWb2ApPZ4OEywya3otXkAFkrjiACRzt6zFBJ8QjwG+AXDNy9MYrsWajHaB3aAlYtf99bOWsEZjZTW/oP/Jvle1GZIttnW8T1sLf1dc+bJfZl3+a9vAAM5wMh": "utter_question_who_is_observing",
+    "eJytkUEOgjAQRa/SA3gCrmLMBPCDk2CLnaEuGu5ulerGRQHddZI37/9Jj3E+mDh6BKpbZWcrE5cH2fqKyuRhYFHYxE4Cnxi2adTK9B7QueCYVOFpQfcZCi1uE+QFyIiW6ydGgYWVGnTOY13BouXvuYWzOmBg269r/4Z/s3wuylvkmmQLOO/2rv26+8URS87b3vdrfUvS6QH5uy0h": "action_listen",
+    "eJytkUEOgjAQRa/SA3gCrmLMpMAHJ8EW2wEWpHe3SHXjooDsOsmbN/+n1zlc1Nw7jKQrYWsKNa8PMvqBQqWhYy8wkR08XGTYxFEK1TpAQsYxiMDRih4zZFI8B/g34HtUrBeMRvYsVKKxDtsCZi2n383UaoCOTbst/Qf+z/JtlLbIltE2oj7s3fp1090S+3Rvf96f9fMu7WygTe0whXB7AWCzTh4=": "utter_question_who_is_andrew",
+    "eJytkUEOgyAURK/CAXoCr9I0P6ij/YkFC19dGO9erLSbLkDrjp/MvJkJ13m5qLl3GElXwtYUat4eZPQDhYpHx15ggnbwcEHDJpxSqNYBsiQYgwgcbdJjhESL5wD/FvgeFetVRiN7FirRWIe8gknK6bmJWQ3QsWnz2n/E/1G+i6KLbBloI+rD3Nyvm+6W2Me8/X1/7Ocl7VygTe0wHasfvdkZtxeLv3WC": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMzE3MSm/pLY2FgAhdRxL": "utter_iamabot",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMzE3MSm/pJaAKaUlJalF8TDFuE2JBQCGpjbp": "action_listen"
+  }
+}

@@ -17,7 +17,48 @@ stories:
   - intent: iamabot
   - action: utter_iamabot
 
-- story: specialist treatment have you been to doctor before
+- story: asking bout specialist visit
   steps:
   - intent: question_specialist_visit_before
   - action: utter_question_specialist_visit_before
+
+- story: asking bout feeling
+  steps:
+  - intent: question_bout_feeling
+  - action: utter_question_bout_feeling
+  - action: utter_question_feeling_observed
+
+- story: asking bout being observed
+  steps:
+  - intent: question_who_is_observing
+  - action: utter_question_who_is_observing
+
+- story: asking bout andrew
+  steps:
+  - intent: question_who_is_andrew
+  - action: utter_question_who_is_andrew
+
+- story: asking do you like andrew
+  steps:
+  - intent: question_whats_your_connection_with_andrew
+  - action: utter_whats_your_connection_with_andrew
+
+- story: asking why andrew scary
+  steps:
+  - intent: question_why_andrew_is_scary
+  - action: utter_why_andrew_is_scary
+
+- story: asking how long does he know andrew
+  steps:
+  - intent: question_how_long_do_you_know_andrew
+  - action: utter_how_long_do_you_know_andrew
+
+- story: asking if andrew was introduced to someone
+  steps:
+  - intent: question_was_andrew_introduced_to_someone
+  - action: utter_was_andrew_introduced_to_someone
+
+- story: asking bout doing drugs
+  steps:
+  - intent: question_do_you_do_drugs
+  - action: utter_do_you_do_drugs

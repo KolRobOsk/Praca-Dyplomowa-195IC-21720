@@ -1,0 +1,24 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKwgKb+0JD4tNTUnMy+9tjYWANsvIjg=": "utter_question_bout_feeling",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKwgKb+0JD4tNTUnMy+9loCZpSUlqUXx2LUSa0MsAElVSLA=": "utter_question_feeling_observed",
+    "eJy1jUEKgCAURK/iATqBV4n4ZE0h1Lf060a6e1Iug9q0m4H3Ztp8NCpvHon6QaxjrfIdiPsVWtWy2CDgwsYAXxjLpYpWe0S4AOOi0AQslufjZTOKwNOz+stDtciZsp0wfn7pTjT2cMg=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKygPCM/PrM4Pj8JKF+WmZdeWxsLAGkCI/w=": "utter_question_who_is_observing",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKygPCM/PrM4Pj8JKF+WmZdeS8Dc0pKS1KJ43NpJsSkWAPFWTfw=": "action_listen",
+    "eJwtytEJgDAMANFVMoATdBWREGrAgEZNWouU7m5R/+7gjbUNUA/jCykm2TVA/QKVNg7wzyqeWLvNztaNaN8U4MzsLyjLjaSzcUFx9Eh2tzY91vwlOQ==": "utter_why_andrew_is_scary",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKygPKMyPjEvpSi1PD6zOL44ObGospaA0aUlJalFWDWSaE0sAOleTdw=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKygPCM/PrM4PjEvpSi1vLY2FgD+ECKu": "utter_question_who_is_andrew",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEqhsDS1GKygPCM/PrM4PjEvpSi1vJaAoaUlJalF8Tj0Em1HLAAwbEoS": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMzE3MSm/pLY2FgAhdRxL": "utter_iamabot",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohMzE3MSm/pJaAKaUlJalF8TDFuE2JBQCGpjbp": "action_listen",
+    "eJwty2EKgCAMhuGr7ACdwKtEjGEDBzVLZxLi3ZPq3/fC882tT9COxBeSN4nqoH0DlXZ28Mcm2ViHLZnTMKIjzcFZOL+gBrKMdywJfVTl71bFApKuiWvvywMNeSsk": "utter_whats_your_connection_with_andrew",
+    "eJyljl0KgCAQhK/iATqBV4lYxBYUaq11TUK8e5K9F/Q2A9/8jKUOqmyMBxgrPpBWpQsgs6JWj1l8FKTGpojcGE/NilZ7wngD2RmJcIbEYAMR9lj24sDQzJjry1ASQf5Q8+vCdAFsQF+d": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJwtylsKgCAQRuGtuIBW4FYiBpM/GKjRnLEXce/Z5e0c+ObWJ9dywUUhGifxrn1BEg5498/OapBhq6IMwzLWvDsr9AWaETk8jC5WNlqxpYLelxtvOCbW": "utter_question_specialist_visit_before",
+    "eJydjUsKgDAMBa+SA3iCXkUk1PKEgNbapG6Kd7d+9oK7NzDM6+vRUU0ZO/tgskZH9Rkc/QJHL8yihtjcosjNkdjQHG0FeguaEMRfGu+iYjxiWjOOj3wxQ+bPyo/f4QS/F1aK": "action_listen"
+  }
+}

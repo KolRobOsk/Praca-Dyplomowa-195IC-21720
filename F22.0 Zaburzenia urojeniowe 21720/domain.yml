@@ -1,30 +1,63 @@
-version: "3.1"
-
+version: '3.1'
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - bot_challenge
-  - question_specialist_visit_before
-  - question_feeling observed
-
+- affirm
+- bot_challenge
+- deny
+- feeling
+- goodbye
+- greet
+- iamabot
+- question_feeling observed
+- question_specialist_visit_before
+- question_who_is_andrew
+- question_who_is_observing
+- question_feeling_observed
+- question_bout_feeling
+- question_whats_your_connection_with_andrew
+- question_why_andrew_is_scary
+- question_how_long_do_you_know_andrew
+- question_was_andrew_introduced_to_someone
+- question_do_you_do_drugs
 responses:
   utter_greet:
-  - text: "Hi..."
-
+  - text: Hi...
   utter_question_specialist_visit_before:
-  - text: "Nah, I've never been to psychiatrist."
-
+  - text: Nah, I've never been to psychiatrist.
   utter_goodbye:
-  - text: "Yeah, bye..."
-
+  - text: Yeah, bye...
   utter_iamabot:
-  - text: "I am bot, created by RasaHQ. My purpose is to simulate F22.0 health condition."
-
-  utter_question_feeling observed:
-  - text: "Maybe... Maybe most people are watching me... I know it sounds dumb."
-
+  - text: I am bot, created by RasaHQ. My purpose is to simulate F22.0 health condition.
+  utter_question_feeling_observed:
+  - text: Maybe... Maybe most people are watching me... I know it sounds dumb.
+  utter_question_who_is_observing:
+  - text: I feel like almost everyone observes me. Especially in crowds. Either Andrew thinks.
+  utter_question_who_is_andrew:
+  - text: It may sound strange, but I have guardian angel.... He talks to me often
+  utter_question_bout_feeling:
+  - text: I feel fear... and dread.
+  utter_whats_your_connection_with_andrew:
+  - text: He scares me...
+  utter_why_andrew_is_scary:
+  - text: He tells me that people want to hurt me. That they shouldn't be trusted. Including you.
+  utter_how_long_do_you_know_andrew:
+  - text: I know him for more than half a year.
+  utter_was_andrew_introduced_to_someone:
+  - text: Nobody believes me! Everybody is laughing at me when I try to introduce him to them!
+  utter_do_you_do_drugs:
+  - text: Nah, it's bad for the health. I've seen too many homeless in my life.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+actions:
+- utter_question_who_is_andrew
+- utter_question_who_is_observing
+- utter_question_feeling_observed
+- utter_question_specialist_visit_before
+- utter_greet
+- utter_feeling
+- utter_whats_your_connection_with_andrew
+- utter_question_bout_feeling
+- utter_why_andrew_is_scary
+- utter_how_long_do_you_know_andrew
+- utter_was_andrew_introduced_to_someone
+- utter_do_you_do_drugs

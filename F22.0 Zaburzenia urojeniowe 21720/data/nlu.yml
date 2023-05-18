@@ -1,5 +1,4 @@
 version: "3.1"
-
 nlu:
 - intent: greet
   examples: |
@@ -16,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-
 - intent: goodbye
   examples: |
     - cu
@@ -29,7 +27,6 @@ nlu:
     - see you around
     - bye bye
     - see you later
-
 - intent: affirm
   examples: |
     - yes
@@ -38,7 +35,6 @@ nlu:
     - of course
     - that sounds good
     - correct
-
 - intent: deny
   examples: |
     - no
@@ -48,13 +44,12 @@ nlu:
     - don't like that
     - no way
     - not really
-
 - intent: question_specialist_visit_before
   examples: |
     - Have you ever been to specialist?
     - Have you ever been to psychiatrist?
     - Did you ever receive specialist treatment?
-
+    - were you ever to doctor?
 - intent: iamabot
   examples: |
     - are you a bot?
@@ -62,10 +57,55 @@ nlu:
     - am I talking to a bot?
     - am I talking to a human?
     - what are you?
-
-  - intent: question_feeling observed
-    examples: |
-      - Do you feel observed?
-      - Feeling observed?
-      - Is everyone watching you?
-      - Does everyone pay attention to you?
+- intent: question_feeling_observed
+  examples: |
+    - Do you feel observed?
+    - Feeling observed?
+    - Do you feel watched?
+    - Feeling watched?
+- intent: question_who_is_observing
+  examples: |
+    - Does everyone pay attention to you?
+    - Is everyone watching you?
+    - Who is watching you?
+    - who's watching you?
+- intent: question_who_is_andrew
+  examples: |
+    - Who is Andrew?
+    - Who's Andrew?
+    - Andrew?
+    - who's andrew?
+- intent: question_bout_feeling
+  examples: |
+    - How are you feeling?
+    - How are you feeling today?
+    - Feeling good?
+    - how are you feeling today?
+- intent: question_whats_your_connection_with_andrew
+  examples: |
+    - Do you like Andrew?
+    - What's your connection with Andrew?
+    - How do you feel about Andrew?
+- intent: question_why_andrew_is_scary
+  examples: |
+    - Why Andrew is scary?
+    - Why do you fear Andrew?
+    - Andrew scary?
+- intent: question_how_long_do_you_know_andrew
+  examples: |
+    - How long do you know Andrew?
+    - How long do you know each other?
+    - Do you know Andrew for long?
+    - When did you meet Andrew for the first time?
+- intent: question_was_andrew_introduced_to_someone
+  examples: |
+    - Did you introduce Andrew to someone?
+    - Does anybody know about Andrew?
+    - Has anybody been talking with Andrew?
+    - Does anyone know Andrew?
+- intent: question_do_you_do_drugs
+  examples: |
+    - Are you a junkie?
+    - Do you do drugs?
+    - Do you smoke crack?
+    - Do you smoke weed?
