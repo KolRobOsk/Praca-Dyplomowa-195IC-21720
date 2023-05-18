@@ -18,6 +18,7 @@ intents:
 - question_how_long_do_you_know_andrew
 - question_was_andrew_introduced_to_someone
 - question_do_you_do_drugs
+- question_why_laughing_while_trying_to_introduce
 responses:
   utter_greet:
   - text: Hi...
@@ -45,6 +46,8 @@ responses:
   - text: Nobody believes me! Everybody is laughing at me when I try to introduce him to them!
   utter_do_you_do_drugs:
   - text: Nah, it's bad for the health. I've seen too many homeless in my life.
+  utter_why_laughing_while_trying_to_introduce:
+  - text: They say, that he doesn't exist and I'm a schizo.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -61,3 +64,4 @@ actions:
 - utter_how_long_do_you_know_andrew
 - utter_was_andrew_introduced_to_someone
 - utter_do_you_do_drugs
+- utter_why_laughing_while_trying_to_introduce

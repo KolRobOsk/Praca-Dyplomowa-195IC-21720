@@ -109,3 +109,8 @@ nlu:
     - Do you do drugs?
     - Do you smoke crack?
     - Do you smoke weed?
+- intent: question_why_laughing_while_trying_to_introduce
+  examples: |
+    - Why are they laughing?
+    - They are laughing at you?
+    - Why do they laugh?
