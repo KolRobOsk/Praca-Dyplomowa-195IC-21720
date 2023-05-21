@@ -1,2 +1,2 @@
 cmd /c "if exist "C:/%username%/myenv" (echo exists) else (py -3.8 -m venv "C:/%username%/myenv")"
-cmd /c "C:/"%username%/myenv/Scripts/activate" && python -m pip install --upgrade pip  &&  pip install rasa && cd "Bot Depresyjny 21720" && rasa train && cd "../F22.0 Zaburzenia urojeniowe 21720" && rasa train"
+cmd /c "C:/"%username%/myenv/Scripts/activate" && python -m pip install --upgrade pip  &&  pip install rasa && cd "F32.0 Epizod Depresyjny 21720" && rasa train && cd "../F22.0 Zaburzenia urojeniowe 21720" && rasa train"

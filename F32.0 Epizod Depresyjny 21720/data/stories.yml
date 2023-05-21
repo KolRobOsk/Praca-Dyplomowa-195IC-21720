@@ -1,0 +1,53 @@
+version: "3.1"
+
+stories:
+
+- story: no category greeting
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- story: no category goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: no category are you a bot
+  steps:
+  - intent: iamabot
+  - action: utter_iamabot
+
+- story: asking bout specialist visit
+  steps:
+  - intent: question_specialist_visit_before
+  - action: utter_question_specialist_visit_before
+
+- story: asking bout feeling
+  steps:
+  - intent: question_bout_feeling
+  - action: utter_question_bout_feeling
+
+- story: asking bout doing drugs
+  steps:
+  - intent: question_do_you_do_drugs
+  - action: utter_do_you_do_drugs
+
+- story: Say dont understand when not understanding
+  steps:
+  - intent: unknown_intent
+  - action: utter_dont_understand
+
+- story: asking about drinking
+  steps:
+  - intent: question_do_you_use_alcohol
+  - action: utter_do_you_use_alcohol
+
+- story: asking bout cleaning house
+  steps:
+  - intent: question_do_you_clean_house
+  - action: utter_do_you_clean_house
+
+- story: askin bout sleeping
+  steps:
+  - intent: question_do_you_sleep_well
+  - action: utter_do_you_sleep_well

@@ -1,0 +1,49 @@
+version: '3.1'
+intents:
+- affirm
+- bot_challenge
+- deny
+- feeling
+- goodbye
+- greet
+- iamabot
+- question_specialist_visit_before
+- question_bout_feeling
+- question_do_you_do_drugs
+- unknown_intent
+- question_do_you_use_alcohol
+- question_do_you_clean_house
+- question_do_you_sleep_well
+responses:
+  utter_greet:
+  - text: Hi...
+  utter_question_specialist_visit_before:
+  - text: Nah, I've never been to psychiatrist.
+  utter_goodbye:
+  - text: Yeah, bye...
+  utter_iamabot:
+  - text: I am bot, created by RasaHQ. My purpose is to simulate F32.0 health condition.
+  utter_question_bout_feeling:
+  - text: Tired... Sad... Lost...
+  utter_do_you_do_drugs:
+  - text: Nah, it's bad for the health. I've seen too many homeless in my life.
+  utter_dont_understand:
+  - text: Sorry, I don't understand. Could you say that in other words?
+  utter_do_you_use_alcohol:
+  - text: I'm sober, all my life.
+  utter_do_you_clean_house:
+  - text: My life is a mess, same goes for my house...
+  utter_do_you_sleep_well:
+  - text: No. I do not. I cannot sleep during night. Then I sleep during the day, for 12 hours.
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+actions:
+- utter_question_specialist_visit_before
+- utter_greet
+- utter_question_bout_feeling
+- utter_do_you_do_drugs
+- utter_dont_understand
+- utter_do_you_use_alcohol
+- utter_do_you_clean_house
+- utter_do_you_sleep_well
