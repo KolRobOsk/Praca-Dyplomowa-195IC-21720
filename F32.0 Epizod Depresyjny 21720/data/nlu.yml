@@ -87,3 +87,14 @@ nlu:
     - Do you sleep well?
     - How are you sleeping?
     - Do you sleep all night?
+- intent: question_do_you_meet_people
+  examples: |
+    - Do you talk to people?
+    - DO you meet with friends?
+    - Do you answer phone?
+- intent: question_are_you_idle
+  examples: |
+    - Are you idle?
+    - Do you not care about anything?
+    - Don't you care about the world?
+    - Are you afraid of doing anything?
