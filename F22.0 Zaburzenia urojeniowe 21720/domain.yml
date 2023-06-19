@@ -36,7 +36,7 @@ responses:
   utter_question_who_is_observing:
   - text: I feel like almost everyone observes me. Especially in crowds. Either Andrew thinks.
   utter_question_who_is_andrew:
-  - text: It may sound strange, but I have guardian angel.... He talks to me often
+  - text: It may sound strange, but I have guardian angel.... He talks to me often, I can hear him in my thoughts.
   utter_question_bout_feeling:
   - text: I feel fear... and dread.
   utter_whats_your_connection_with_andrew:
