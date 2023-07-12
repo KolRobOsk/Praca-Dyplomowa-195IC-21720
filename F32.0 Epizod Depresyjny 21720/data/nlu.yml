@@ -98,3 +98,9 @@ nlu:
     - Do you not care about anything?
     - Don't you care about the world?
     - Are you afraid of doing anything?
+- intent: question_bout_feeling_sad
+  examples: |
+    - Do you feel tired?
+    - Why do you feel tired?
+    - Why do you feel exhausted?
+    - Do you feel exhausted?

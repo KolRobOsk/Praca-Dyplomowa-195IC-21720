@@ -61,3 +61,8 @@ stories:
   steps:
     - intent: question_are_you_idle
     - action: utter_are_you_idle
+
+- story: asking bout feeling sad
+  steps:
+  - intent: question_bout_feeling_sad
+  - action: utter_question_bout_feeling_sad

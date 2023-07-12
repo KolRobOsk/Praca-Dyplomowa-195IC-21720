@@ -16,6 +16,7 @@ intents:
 - question_do_you_sleep_well
 - question_do_you_meet_people
 - question_are_you_idle
+- question_bout_feeling_sad
 responses:
   utter_greet:
   - text: Hi...
@@ -41,6 +42,8 @@ responses:
   - text: I don't answer the phone, and do not call back most of the time. It's ashaming to call someone after 2 days. Neither I meet my friends.
   utter_are_you_idle:
   - text: I don't want to do anything... I'm tired all the time...
+  utter_question_bout_feeling_sad:
+  - text: I'm just exhausted. I don't want to do anything.
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
@@ -55,3 +58,4 @@ actions:
 - utter_do_you_sleep_well
 - utter_do_you_meet_people
 - utter_are_you_idle
+- utter_question_bout_feeling_sad
